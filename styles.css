@@ -207,7 +207,6 @@ main {
 }
 
 /* Медіа запити для адаптивності */
-/* Медіа запити для адаптивності */
 @media (max-width: 768px) {
     .photo {
         grid-area: photo;
@@ -223,8 +222,8 @@ main {
         height: auto;
         position: absolute;
         top: 50%;
-        left: 10%;
-        transform: translateY(-50%);
+        left: 50%;
+        transform: translate(-50%, -50%);
         z-index: 3;
         padding: 3%;
         text-align: left;
@@ -277,9 +276,9 @@ main {
         grid-area: text;
         width: 65%;
         position: absolute;
-        top: 55%;
-        left: 15%;
-        transform: translateY(-50%);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         z-index: 3;
         padding: 3%;
         text-align: left;
